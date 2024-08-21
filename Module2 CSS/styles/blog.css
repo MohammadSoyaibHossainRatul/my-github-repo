@@ -1,0 +1,28 @@
+h2{
+    font-size: 36px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* text-emphasis-position: top; */
+}
+.blog{
+    margin: 30px;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    box-shadow: -10px 10px 15px 1px black;
+    padding: 25px;
+}
+h3{
+    /* display: none; */
+    /* visibility: hidden; */
+    text-align: center;
+}
+.header{
+    height: 130px;
+    background-image: url('images/20240811_195133.jpg');
+    background-size: cover;
+    
+}
+li{
+    text-align: center;
+}
