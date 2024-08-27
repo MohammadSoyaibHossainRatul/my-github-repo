@@ -1,4 +1,4 @@
-nav>ul{
+nav > ul{
     display: flex;
 }
 nav li{
@@ -7,9 +7,21 @@ nav li{
     padding: 5px;
 }
 nav li:hover{
-    background-color:red
+    background-color: gray;
 }
 nav li a{
     text-decoration: none;
     color: black;
+}
+
+/* mega nested menu */
+nav li .dropdown{
+    display: none;
+    position:absolute;
+    background-color: aquamarine;
+    padding-left: 10px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
 }
